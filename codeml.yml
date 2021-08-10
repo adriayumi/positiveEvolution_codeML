@@ -1,0 +1,17 @@
+# Conda environment file for codeml/ete3
+
+name: codeml
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - iqtree=1.6.12
+  - mafft=7.407
+  - ete3=3.1.1
+  - snakemake-minimal=5.5.4
+  - python=3.6
+  - paml=4.9
+  - pandas=0.25.1
